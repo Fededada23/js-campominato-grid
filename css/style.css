@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    margin: 3rem auto;
+    width: 900px;
+    height: 900px;
+    background-color: brown;
+}
+
+.container-header{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#play-game{
+    margin-top: 30px;
+    background-color: white;
+    border: none;
+    color: blue;
+    border-radius: 0px;
+    transition: 0.3s;
+    padding: 10px 20px;
+}
+#play-game:hover{
+    background-color: grey
+}
+
+.square{
+    background-color: violet;
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    
+}
+
+.clicked{
+    background-color: chartreuse;
+}
