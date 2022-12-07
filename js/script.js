@@ -10,7 +10,7 @@ function generateGrid()
             console.log(this.innerHTML);
         })
 
-        document.querySelector('.grid').appendChild(cell)
+        document.querySelector('.grid').appendChild(cell);
     }
 }
 
